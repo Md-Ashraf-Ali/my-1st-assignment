@@ -1,0 +1,226 @@
+body{
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+section{
+    height: 500px;
+}
+/* ......manubar-start......... */
+
+.manubar {
+    height: 160px;
+    width: 100%;
+}
+.manu-logo{
+    width: 50%;
+
+}
+.manu-drop {
+    width: 50%;
+    float: right;
+    
+}
+
+}
+ ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-right: 250px;
+    margin-top: 20px;
+    
+}
+ ul li{
+    display: inline-block;
+    
+}
+
+ ul li a{
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    padding-right: 80px;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+/* ......manubar-end....... */
+/* ........top-area start............ */
+.top-area{
+
+    margin-bottom: 50px;
+}
+
+ h1{
+     font-size: 65px;
+     color: rgba(5, 12, 12, 0.692);
+ }
+ .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    line-height: 20px;
+}
+ .portfolio-img{
+     width: 80%;
+     float: left;
+ }
+ .heighlight-name{
+     color: orange;
+    
+ }
+ /* ........top-area end............ */
+ /* ........about-area start............ */
+ .about-area{
+     margin-top: 20px;
+ }
+ .link-btn{
+     text-decoration: none;
+     padding: 18px 55px;
+     border-radius: 10px;
+     font-size: 20px;
+     color: seashell;
+     background-image: linear-gradient(45deg, blue, orange);
+     font-weight: bold;
+    
+ }
+ p{
+     font-size: 18px;
+     padding-bottom: 25px;
+     color: rgb(61, 95, 92);
+ }
+ .about-font{
+     font-size: 45px;
+ }
+ /* ........about-area end............ */
+ /* ........working-area start............ */
+
+ .working-area{
+     width: 100%;
+     background-color: rgb(217, 248, 247);
+     height: 750px;
+     margin-right: 150px;
+     margin-top: 80px;
+     
+
+ }
+ 
+ .project{
+    width: 24%;
+    height: 390px;
+
+    margin: 30px;
+    box-shadow: 10px 10px 20px sienna;
+    padding: 12px;
+    border-radius: 15px;
+    display: inline-block;
+    
+ }
+ .project-img{
+     height: 240px;
+     width: 378px;
+     border: 1px rgb(129, 235, 235);
+     padding-left:;
+     background-color: rgb(245, 215, 215);
+     border-radius: 10px;
+     
+ }
+ h2{
+     font-size: 25px;
+     color: rgb(20, 37, 37);
+ }
+ .working-title{
+     text-align: center;
+     margin-top: 160px;
+     padding-top: 65px;
+    
+}
+.working-title h1{
+    color: tomato;
+    font-size: 45px;
+    color: rgba(5, 12, 12, 0.692);
+}
+
+.heighlight-title{
+    color: orange;
+}
+.working-row{
+    margin: 0 auto;
+
+}
+
+
+/* ........working-area end............ */
+/* ........inquiry-area start............ */
+
+.inquiry-area{
+    width: 100%;
+    height: 450px;
+}
+.work-chating {
+    height: 305px;
+    width: 1230px;
+    background-image: url(shapes/Group_33094_1.png);
+    background-size: cover;
+    margin: 180px 330px 100px 150px;
+}
+.work{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+.work h1{
+    color: whitesmoke;
+}
+.chat {
+    display: inline-block;
+    padding-left: 475px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-right: 80px;
+}
+.footer-area{
+    width: 100%;
+    line-height: 40px;
+}
+h3{
+    font-size: 30px;
+    color: rgba(124, 142, 192, 0.87);
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-icon ul {
+    display: inherit;
+    margin-left: 615px;
+}
+
+.footer-icon ul li {
+    margin-top: 20px;
+    display: inline;
+
+}
+
+.footer-icon ul li a{
+    height: 42px;
+    width: 42px;
+    padding: 5px;
+    padding-right: 45px;
+    
+}
+.footer-icon ul li img{
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+.hellow a {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    color: seagreen;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+/* ........inquiry-area start............ */
