@@ -4,12 +4,17 @@ body{
 }
 section{
     height: 500px;
+
+}
+::-webkit-scrollbar{
+    display: none;
 }
 /* ......manubar-start......... */
 
 .manubar {
     height: 160px;
     width: 100%;
+  
 }
 .manu-logo{
     width: 50%;
@@ -46,25 +51,33 @@ section{
 /* ......manubar-end....... */
 /* ........top-area start............ */
 .top-area{
-
-    margin-bottom: 50px;
+     margin-bottom: 50px;
+     padding: 0 85px;
+     
 }
 
  h1{
      font-size: 65px;
      color: rgba(5, 12, 12, 0.692);
  }
- .half-width{
-    width: 40%;
+
+ .half-width {
+    width: 43%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    line-height: 20px;
+    line-height: 38px;
+    /* margin-right: 41px; */
+    padding-right: -8px;
+    padding-left: 53px;
 }
- .portfolio-img{
-     width: 80%;
-     float: left;
- }
+
+ 
+.portfolio-img {
+    width: 80%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+
  .heighlight-name{
      color: orange;
     
@@ -72,7 +85,8 @@ section{
  /* ........top-area end............ */
  /* ........about-area start............ */
  .about-area{
-     margin-top: 20px;
+     padding:0 70px;
+     
  }
  .link-btn{
      text-decoration: none;
@@ -84,11 +98,12 @@ section{
      font-weight: bold;
     
  }
- p{
-     font-size: 18px;
-     padding-bottom: 25px;
-     color: rgb(61, 95, 92);
- }
+ p {
+    font-size: 18px;
+    padding-bottom: 25px;
+    color: rgb(61, 95, 92);
+    padding: 4px;
+}
  .about-font{
      font-size: 45px;
  }
@@ -98,22 +113,20 @@ section{
  .working-area{
      width: 100%;
      background-color: rgb(217, 248, 247);
-     height: 750px;
-     margin-right: 150px;
-     margin-top: 80px;
-     
-
+     height: 900px;
+     margin-right: 175px;
+     margin-top: 50px;
  }
  
  .project{
     width: 24%;
-    height: 390px;
-
-    margin: 30px;
-    box-shadow: 10px 10px 20px sienna;
-    padding: 12px;
+    height: 412px;
+    box-shadow: 10px 10px 40px sienna;
+    padding: 10px;
     border-radius: 15px;
     display: inline-block;
+    margin: 30px;
+    padding-right: 12px;
     
  }
  .project-img{
@@ -123,16 +136,17 @@ section{
      padding-left:;
      background-color: rgb(245, 215, 215);
      border-radius: 10px;
+
      
  }
  h2{
      font-size: 25px;
      color: rgb(20, 37, 37);
+     padding: 2px;
  }
  .working-title{
      text-align: center;
-     margin-top: 160px;
-     padding-top: 65px;
+     padding-top: 80px;
     
 }
 .working-title h1{
@@ -144,25 +158,120 @@ section{
 .heighlight-title{
     color: orange;
 }
-.working-row{
+.working-row {
     margin: 0 auto;
+    width: 100%;
+    margin-right: 40px;
+    padding: 0 90px;
+}
 
+/* ........working-area end............ */
+/* .........skill-area start...... */
+.skill-area{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+
+}
+.known{
+    color:seagreen; ;
+}
+.skill-titel{
+    color: tomato;
+    font-size: 45px;
+    color: rgba(5, 12, 12, 0.692);
+}
+
+.left-side {
+    width: 35%;
+    float: left;
+    line-height: 25px;
+    margin-left: 120px;
+    padding: 0 100px;
+    margin: 28px 63px 30px 52px;
+}
+.right-side {
+    width: 35%;
+    float: right;
+    margin-right: 120px;
+    margin: -74px 63px 58px 32px;
+}
+.right-side{
+        font-size: 30px;
+        color: rgba(124, 142, 192, 0.87);
+        text-align: center;
+        margin-top: 16px; 
+}
+.progresbar-1{
+    width: 350px;
+    height: 27px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+.progresbar-2{
+    width: 290px;
+    height: 27px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+.progresbar-3{
+    width: 250px;
+    height: 27px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}.progresbar-4{
+    width: 210px;
+    height: 27px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+.progresbar-1 h3{
+    font-size: 16px;
+    color: rgba(5, 12, 12, 0.692);
+    text-align: center;
+    margin-top: 50px;
+}
+.progresbar-2 h3{
+    font-size: 16px;
+    color: rgba(5, 12, 12, 0.692);
+    text-align: center;
+    margin-top: 50px;
+}
+.progresbar-3 h3{
+    font-size: 16px;
+    color: rgba(5, 12, 12, 0.692);
+    text-align: center;
+    margin-top: 50px;
+}
+.progresbar-4 h3{
+    font-size: 16px;
+    color: rgba(5, 12, 12, 0.692);
+    text-align: center;
+    margin-top: 50px;
 }
 
 
-/* ........working-area end............ */
+
+
+/* .........skill-area start...... */
 /* ........inquiry-area start............ */
 
 .inquiry-area{
     width: 100%;
-    height: 450px;
+    height: 700px;
 }
 .work-chating {
     height: 305px;
     width: 1230px;
     background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 180px 330px 100px 150px;
+    padding: -33px 0px 2px 164px;
+    margin: 113px 83px 60px 161px;
 }
 .work{
     display: inline-block;
